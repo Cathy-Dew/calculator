@@ -18,6 +18,7 @@ exports.calculate = function(req, res) {
   };
 
   // Determine the operation
+  //add more comments
 
   if (! req.query.operation) {
     throw new Error("Unspecified operation");
